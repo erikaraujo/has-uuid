@@ -1,8 +1,8 @@
-# // HasUuid
+# // Laravel HasUuid
 
-## About HasUuid
+## About Laravel HasUuid
 
-HasUuid is a simple trait for your Laravel Models that have a UUID primary key.
+Laravel HasUuid is a simple trait for your Laravel Models that have a UUID primary key.
 
 To use it, first make sure that in your `migrations` your primary key is a `UUID`.
 Then, simply import `ErikAraujo\HasUuid\HasUuid` in your model and use it inside class, by adding `use SoftDeletes, HasUuid;` inside it.

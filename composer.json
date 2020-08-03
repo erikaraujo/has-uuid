@@ -1,5 +1,5 @@
 {
-    "name": "erikaraujo/has-uuid",
+    "name": "erikaraujo/laravel-has-uuid",
     "description": "A simple trait for your laravel models that uses UUID as the primary key.",
     "keywords": [
         "erikaraujo",
