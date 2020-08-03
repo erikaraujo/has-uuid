@@ -1,0 +1,31 @@
+{
+    "name": "erikaraujo/has-uuid",
+    "description": "A simple trait for your laravel models that uses UUID as the primary key.",
+    "keywords": [
+        "erikaraujo",
+        "has-uuid",
+        "laravel-has-uuid",
+        "laravel-uuid",
+        "laravel-uuid-trait",
+        "uuid-trait",
+        "uuid"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ErikAraujo\\HasUuid\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ErikAraujo\\HasUuid\\Tests\\": "tests/"
+        }
+    }
+}
