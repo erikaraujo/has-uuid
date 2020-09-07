@@ -27,5 +27,7 @@
         "psr-4": {
             "ErikAraujo\\HasUuid\\Tests\\": "tests/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
 }
