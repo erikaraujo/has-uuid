@@ -8,8 +8,6 @@ trait HasUuid
 {
     protected static function bootHasUuid()
     {
-        parent::boot();
-
         static::creating(function ($model) {
             $model->keyType = 'string';
             $model->incrementing = false;
