@@ -8,9 +8,14 @@ trait HasUuid
 {
     protected static function bootHasUuid()
     {
+        parent::boot();
+
         static::creating(function ($model) {
+            $model->keyType = 'string';
+            $model->incrementing = false;
+
             if (!$model->getKey()) {
-                $model->{$model->getKeyName()} = (string) Str::uuid();
+                $model->{$model->getKeyName()} = (string) Str::orderedUuid();
             }
         });
     }
